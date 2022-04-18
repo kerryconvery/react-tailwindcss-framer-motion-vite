@@ -12,7 +12,6 @@ function PhotoGallery({ photos }: PhotoGalleryProps): JSX.Element {
         },
         hovered: {
             scale: 2,
-            rotate: 360,
             transition: {
                 duration: 1,
             }
